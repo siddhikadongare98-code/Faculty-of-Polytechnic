@@ -5,6 +5,6 @@
 
 def seconds_in_week():
 
-  return(result)
+  return(result)=604800
 
 print(seconds_in_week)
