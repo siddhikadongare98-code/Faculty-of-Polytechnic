@@ -37,4 +37,17 @@ def print_elements(lst):
         print(x)
 
 print_elements(a)
-    
+#problem 5
+i=1
+L=[1,2,3,4,5,6]
+L.pop(0)
+L.pop(1)
+L.pop(2)
+print(L)
+#problem 6
+i=0
+L=[1,2,3,4,5,6]
+L.pop(4)
+L.pop(2)
+L.pop(0)
+print(L)    
