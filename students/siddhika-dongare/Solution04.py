@@ -59,5 +59,5 @@ while True:
     elif guess > secret:
         print("Too high!")
     else:
-        print("🎉 Correct! You guessed the number.")
+        print(" Correct! You guessed the number.")
         break
