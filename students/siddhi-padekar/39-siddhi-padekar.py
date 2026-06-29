@@ -12,7 +12,7 @@ def calculate(l, b, h):
         volume = l*b*h
         perimeter = 4 * (l+b+h)
         return ( volume , perimeter)
-    
+
     else:
         area = l*b
         perimeter = 2 * (l+b)
@@ -52,6 +52,7 @@ def numbers (n):
 numbers(a)
 numbers(b)
 numbers(c)
+
 #problem 4
 a=[1,2,3]
 def print_list(list):
@@ -72,3 +73,21 @@ L.pop(4)
 L.pop(2)
 L.pop(0)
 print(L)
+#problem 1
+d={"ram":30,"vijay":40,"radha":60}
+print(d["vijay"])
+#problem 2
+d={"ram":30,"vijay":40,"radha":60}
+d.update({"tom":2,"don":10})
+print(d)
+#solution3
+s = {'a','b','c','d','e','f','g','h','i','j','k','l',
+     'm','n','o','p','q','r','s','t','u','v','w','x','y','z'}
+
+c = 0
+
+for x in s:
+    if x not in ('a','e','i','o','u'):
+        c += 1
+
+print(c)
